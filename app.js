@@ -14,11 +14,11 @@ translateBtn.addEventListener("click", function clickHandler() {
 var inputText = document.querySelector("#input-field");
 var outputText = document.querySelector("#output-field");
 
-var funUrl = "https://api.funtranslations.com/translate/ferb-latin.json";
+var funUrl = "	https://api.funtranslations.com/translate/ferb-latin.json";
 
 function translatedUrl(text) {
   return (
-    "https://api.funtranslations.com/translate/ferb-latin.json" +
+    "	https://api.funtranslations.com/translate/ferb-latin.json" +
     "?" +
     "text=" +
     text

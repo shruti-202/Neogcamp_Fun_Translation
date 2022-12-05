@@ -43,6 +43,8 @@ textarea {
   color: black;
   border-color: limegreen;
   text-align: center;
+  font-size: large;
+  font-weight: bold;
 }
 #output-field {
   width: 60%;
